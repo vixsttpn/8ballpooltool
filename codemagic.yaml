@@ -1,0 +1,13 @@
+workflows:
+  android-workflow:
+    name: Android Build
+    instance_type: mac_mini_m2
+    environment:
+      java: 17
+    scripts:
+      - name: Build APK
+        script: |
+          cd 8BallPro
+          gradle assembleDebug --no-daemon
+    artifacts:
+      - 8BallPro/app/build/outputs/apk/debug/app-debug.apk
