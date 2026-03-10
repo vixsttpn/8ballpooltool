@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.EightBallPro" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#FF00FFCC</item>
+        <item name="colorPrimaryVariant">#FF030912</item>
+        <item name="colorOnPrimary">#FF030912</item>
+        <item name="android:windowBackground">#FF030912</item>
+        <item name="android:statusBarColor">#FF030912</item>
+        <item name="android:navigationBarColor">#FF030912</item>
+    </style>
+</resources>
